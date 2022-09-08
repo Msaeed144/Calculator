@@ -10,6 +10,7 @@ function showDisplay (event) {
    }
    return displayBox.innerHTML += x
 }
+
 list.forEach (item => {
    item.addEventListener("click" , showDisplay)
 })

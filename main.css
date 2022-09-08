@@ -17,8 +17,10 @@ body {
     height: 75px;
     width: 370px;
     border-radius: 50px;
-    border: 2px solid red;
     color: #ffffff;
+    direction: rtl;
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .key {
     width: 75px;

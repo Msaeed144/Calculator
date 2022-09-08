@@ -10,7 +10,11 @@ function showDisplay (event) {
    }
    return displayBox.innerHTML += x
 }
-
+function calculate() {
+   let result = displayBox.innerText;
+   displayBox.innerText = eval(result)
+}
+document.querySelector(".calculate").addEventListener("click" , calculate)
 list.forEach (item => {
    item.addEventListener("click" , showDisplay)
 })
